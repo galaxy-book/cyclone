@@ -2,6 +2,7 @@ import { Field } from 'formik';
 import Selection from './Selection';
 import GitHub from './Forms/GitHub';
 import GitLab from './Forms/GitLab';
+import Gitea from './Forms/Gitea';
 import PropTypes from 'prop-types';
 import SVN from './Forms/SVN';
 import Bitbucket from './Forms/Bitbucket';
@@ -10,6 +11,7 @@ const renderScmForm = (type, props) => {
   const ScmMap = {
     GitHub: <GitHub {...props} />,
     GitLab: <GitLab {...props} />,
+    Gitea: <Gitea {...props} />,
     SVN: <SVN {...props} />,
     Bitbucket: <Bitbucket {...props} />,
   };

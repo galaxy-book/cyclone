@@ -57,6 +57,7 @@ export default class Selection extends React.Component {
               >
                 <RadioButton value="GitHub">GitHub</RadioButton>
                 <RadioButton value="GitLab">GitLab</RadioButton>
+                <RadioButton value="Gitea">Gitea</RadioButton>
                 <RadioButton value="Bitbucket">Bitbucket</RadioButton>
                 <RadioButton value="SVN">SVN</RadioButton>
               </Field>

@@ -24,6 +24,7 @@ export const validateForm = values => {
       if (
         scmType === 'GitHub' ||
         scmType === 'GitLab' ||
+        scmType === 'Gitea' ||
         scmType === 'Bitbucket'
       ) {
         if (!values.spec.scm.server) {
